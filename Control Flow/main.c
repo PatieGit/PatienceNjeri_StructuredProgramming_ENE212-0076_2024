@@ -13,7 +13,9 @@ if(correctPIN==1312){
 
 }else{
     printf("invalidPIN\n");
-}if(correctPIN<=999)
+    
+}
+ if(correctPIN<=999)
 {
     printf("shortPIN\n");
 }
@@ -24,6 +26,7 @@ else if(correctPIN>=9999)
 else{
     printf("correct length\n");
 }
+ 
 int choice;
     printf("Select an option:\n");
     printf("1.Open Door\n");
@@ -49,4 +52,5 @@ switch (choice){
 
     return 0;
 }
+
 
